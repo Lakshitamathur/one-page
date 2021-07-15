@@ -1,0 +1,338 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+}
+body
+{
+    background-image: url(images/waves_.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+header
+{
+    background-image: url(images/headerbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1000px;
+    height: 650px;
+    margin: 0% auto;
+    box-shadow:0px 0px 30px 0px black;
+    border-bottom: 10px solid #0083ce;
+}
+.main
+{
+    background-image: url(images/gridtile.png);
+    background-repeat: repeat;
+    width: 100%;
+    height: 650px;
+}
+.logo
+{
+    margin: auto;
+    padding-top: 20px;
+    width: 300px;
+    height: 112px;
+}
+.main-mid
+{
+    width: 400px;
+    margin: auto;
+    font-size: 36px;
+    font-family: Arial;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: center;
+    margin-top: 130px;
+    border-top: #27E0FF 1px solid;
+    border-bottom: #27E0FF 1px solid;
+    padding: 25px 0px 25px 0px;
+}
+.nav
+{
+    width: 700px;
+    margin: auto;
+    margin-top: 150px;
+    height: 50px;
+}
+.nav li
+{
+    float: left;
+    border-right: #fff 2px solid;
+    padding: 12px 39px;
+    cursor: pointer;
+}
+.nav a
+{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+.nav ul
+{
+    list-style: none;
+    
+}
+
+/*---home---*/
+.home-block
+{
+    width: 1000px;
+    background-image: url(images/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: auto;
+    height: 500px;
+    box-shadow:0px 0px 30px 0px black;
+    position: relative;
+}
+.main1
+{
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+#home
+{
+    height: 35px;
+    border: white 8px solid;
+    font-family: arial;
+    font-size: 26px;
+    color: #FFF;
+    font-weight: bold;
+    padding: 0px 10px;
+    text-align: center;
+    float: left;
+    margin-top: 13%;
+    margin-left: 43%;
+    box-shadow:0px 0px 30px 0px black;
+}
+.home-para
+{
+    float: left;
+    width: 100%;
+    background-color: white;
+    margin-top: 150px;
+    text-align: center;
+    box-shadow:0px 0px 30px 0px black;
+    color: #182D55;
+}
+.home-para p
+{
+    padding: 60px 20px 20px 20px;
+    word-spacing: 3px;
+    font-size: 15.5px;
+    line-height: 1.8;
+    color: #182D55;
+}
+.home-para2
+{
+    width: 300px;
+   height: 150px;
+   float: left;
+   margin: 5% 0% 0% 35%;
+   color: #182D55;
+   line-height: 2;
+}
+.home-para2 a
+{
+    color: #182D55;
+    text-decoration: none;
+    font-size: 17px;
+}
+.home-para3 
+{
+    float: left;
+    width: 300px;
+    margin: 2% 0% 0% 35% ;
+    text-align: center;
+    color: #182D55;
+}
+.back
+{
+    float: left;
+    width: 300px;
+    margin: 10% 0% 0% 35% ;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.back a{
+    font-size: 25px;
+    color: rgb(21, 21, 56);
+}
+
+
+/*---about us---*/
+.about-block
+{
+    width: 1000px;
+    background-image: url(images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: auto;
+    height: 500px;
+    box-shadow:0px 0px 30px 0px black;
+    margin-top: 430px;
+    
+}
+#about
+{
+    height: 35px;
+    border: white 8px solid;
+    font-family: arial;
+    font-size: 26px;
+    color: #FFF;
+    font-weight: bold;
+    padding: 0px 10px;
+    text-align: center;
+    float: left;
+    margin-top: 13%;
+    margin-left: 43%;
+    box-shadow:0px 0px 30px 0px black;
+}
+
+
+/*---services---*/
+.service-block
+{
+    width: 1000px;
+    background-image: url(images/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: auto;
+    height: 500px;
+    box-shadow:0px 0px 30px 0px black;
+    margin-top: 430px;
+    
+}
+#service
+{
+    height: 35px;
+    border: white 8px solid;
+    font-family: arial;
+    font-size: 26px;
+    color: #FFF;
+    font-weight: bold;
+    padding: 0px 10px;
+    text-align: center;
+    float: left;
+    margin-top: 13%;
+    margin-left: 43%;
+    box-shadow:0px 0px 30px 0px black;
+}
+
+
+/*---training-block---*/
+.training-block
+{
+    width: 1000px;
+    background-image: url(images/banner-7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: auto;
+    height: 500px;
+    box-shadow:0px 0px 30px 0px black;
+    margin-top: 430px;
+    
+}
+#training
+{
+    height: 35px;
+    border: white 8px solid;
+    font-family: arial;
+    font-size: 26px;
+    color: #FFF;
+    font-weight: bold;
+    padding: 0px 10px;
+    text-align: center;
+    float: left;
+    margin-top: 13%;
+    margin-left: 43%;
+    box-shadow:0px 0px 30px 0px black;
+}
+
+
+/*---contact-us---*/
+.contact-block
+{
+    width: 1000px;
+    background-image: url(images/4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: auto;
+    height: 500px;
+    box-shadow:0px 0px 30px 0px black;
+    margin-top: 530px;
+}
+#contact
+{
+    height: 35px;
+    border: white 8px solid;
+    font-family: arial;
+    font-size: 26px;
+    color: #FFF;
+    font-weight: bold;
+    padding: 0px 10px;
+    text-align: center;
+    float: left;
+    margin-top: 13%;
+    margin-left: 43%;
+    box-shadow:0px 0px 30px 0px black;
+}
+.contact-para
+{
+    float: left;
+    width: 100%;
+    background-color: white;
+    margin-top: 150px;
+    text-align: center;
+    box-shadow:0px 0px 30px 0px black;
+}
+.contact-para p
+{
+    word-spacing: 3px;
+    font-size: 20px;
+    line-height: 1.8;
+    width: 500px;
+    margin: auto;
+    margin-top: 40px;
+    color: #182D55;
+}
+.contact-para span
+{
+    font-size: 40px;
+    color: #182D55;
+}
+.back1
+{
+    float: left;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background: rgba(0,0,0,0.6);
+}
+.back1 a
+{
+   font-size: 25px;
+   margin: 30px 10px 0px 42%;
+   float: left;
+   color: white;
+   text-decoration: none;
+}
